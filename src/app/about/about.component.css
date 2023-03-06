@@ -1,0 +1,27 @@
+#about {
+  background: linear-gradient(0deg, rgb(11, 14, 23) 0%, rgb(10, 25, 47) 100%);
+  flex-direction: column;
+}
+
+#about-container {
+  display: flex;
+  align-items: center;
+}
+
+#about-text {
+  /*
+  max-width: 75vw;
+  font-size: x-large;*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 30vw;
+  font-size: 21px;
+  padding: 30px 0px 30px 30px;
+  border-radius: 30px 0px 0px 30px;    
+  color: rgb(231, 231, 231);
+}
+
+#face-pic {
+  max-height: 400px;
+  max-width: 400px;
+  margin-left: 100px;
+}
